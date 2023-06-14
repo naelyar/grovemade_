@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+.container {
+  width: 1365px;
+  margin: 0 auto;
+}
+.header {
+  height: 80px;
+  padding: 20px;
+}
+.headerIn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a,
+.main a {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #000;
+  margin-left: 8px;
+}
+.logo {
+  width: 240px;
+  height: 40px;
+}
+.logo svg {
+  transform: translateY(15px);
+}
+.main {
+  background: url('./images/Rectangle\ \(1\).png') no-repeat center;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+}
+.main h1 {
+  font-size: 43px;
+  line-height: 46px;
+  font-weight: 300;
+}
+.main p {
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 18px;
+}
+.main a {
+  color: #ffffff;
+}
+.about {
+  padding: 70px 0;
+  text-align: center;
+}
+.aboutText {
+  width: 490px;
+  margin: 15px auto;
+}
+h2 {
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 58px;
+}
+.aboutText p {
+  font-size: 14px;
+  color: #a0a0a0;
+  line-height: 25px;
+  margin: 10px;
+}
+.aboutText .text {
+  color: #000000;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 90px;
+}
+.item h3 {
+  margin-top: 20px;
+}
+.item a {
+  font-size: 13px;
+  color: #000000;
+}
+.item p {
+  font-size: 13px;
+  line-height: 21px;
+  color: #a0a0a0;
+  text-align: left;
+}
+.products {
+  padding: 70px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productsText p{
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #A0A0A0;
+    width: 230px;
+    margin: 10px auto;
+}
+.products svg{
+    transform: translateX(-33px);
+}
