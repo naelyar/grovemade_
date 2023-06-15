@@ -71,10 +71,12 @@ h2 {
   font-size: 43px;
   line-height: 58px;
 }
-.aboutText p {
+p {
   font-size: 14px;
   color: #a0a0a0;
   line-height: 25px;
+}
+.aboutText p {
   margin: 10px;
 }
 .aboutText .text {
@@ -95,9 +97,6 @@ h2 {
   color: #000000;
 }
 .item p {
-  font-size: 13px;
-  line-height: 21px;
-  color: #a0a0a0;
   text-align: left;
 }
 .products {
@@ -107,14 +106,132 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-.productsText p{
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    color: #A0A0A0;
-    width: 230px;
-    margin: 10px auto;
+.productsText p {
+  width: 230px;
+  margin: 10px auto;
 }
-.products svg{
-    transform: translateX(-33px);
+.products svg {
+  transform: translateX(-33px);
+}
+.muse {
+  background: url('./images/Frame\ \(6\).png') no-repeat center;
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+}
+.muse p {
+  font-size: 14px;
+  line-height: 16px;
+  width: 643px;
+  margin: 10px auto;
+}
+.muse a {
+  color: #ffffff;
+}
+.way {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.wayIn p {
+  text-align: center;
+  margin: 20px auto;
+  width: 946px;
+}
+.job {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.job p {
+  width: 625px;
+  margin: 15px auto;
+}
+.gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.quote {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.quote .jobText {
+  width: 490px;
+  height: 129px;
+  margin: 50px auto;
+}
+.quote p {
+  color: #000;
+}
+.back {
+  height: 404px;
+  background: #9aa8b1;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.back p {
+  color: #fff;
+  width: 481px;
+}
+.footer {
+  position: relative;
+}
+.footer .svg {
+  position: absolute;
+  right: 73px;
+}
+.footerIn {
+  display: flex;
+  gap: 80px;
+}
+.blockOne {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.blockOne a {
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+}
+.blockTwo h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+.blockTwo p {
+  width: 340px;
+  margin-top: 30px;
+}
+.blockTwo .footerLine {
+  height: 1px;
+  width: 320px;
+  background: #000000;
+  transform: translateY(60px);
+}
+.blockThree{
+  position: absolute;
+  right: 70px;
+  display: flex;
+  gap: 30px;
+}
+.active{
+  color: #000;
 }
