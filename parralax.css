@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #1d1d1d;
+    /* background-color: #071a20; */
+}
+p, h2{
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+}
+section{
+    padding: 40px 0;
+}
+.image{
+    height: 380px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/911/035/original/modern-abstract-high-speed-movement-colourful-dynamic-motion-on-blue-background-movement-sport-pattern-for-banner-or-poster-design-background-concept-free-vector.jpg');
+
+}
+.text{
+    position: relative;
+    /* transform: rotate(-4deg); */
+
+}
+.text::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 30%; 
+    transform:rotate(1deg) translate(-50%, -50%) ;   
+    width: 150%;
+    height: 125%;
+    background: #fff;
+}

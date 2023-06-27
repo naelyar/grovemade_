@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grovemade</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
+<!-- add icon -->
+    <link rel="icon" href="https://grovemade.com/static/img/icons/favicon.ico?_v=1599686080.4251332">
 </head>
 
 <body>
@@ -16,8 +17,9 @@
         <div class="container">
             <div class="headerIn">
                 <nav class="nav">
-                    <a href="">магазин</a>
-                    <a href="">исследовать</a>
+                    <!-- add link  and id in gen block-->
+                    <a href="#products">магазин</a>
+                    <a href="#way">исследовать</a>
                 </nav>
                 <div class="logo">
                     <svg width="200" height="18" viewBox="0 0 200 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +59,8 @@
                     </svg>
                 </div>
                 <nav class="nav">
-                    <a href="">мои карты</a>
+                     <!-- add link -->
+                    <a href="#footer">мои карты</a>
                 </nav>
             </div>
         </div>
@@ -67,7 +70,7 @@
             <div class="container">
                 <h1>Система настольных полок</h1>
                 <p>Доступен в цвете орех или клен</p>
-                <a href="">ЧИТАТЬ ДАЛЬШЕ</a>
+                <a href="https://grovemade.com/">ЧИТАТЬ ДАЛЬШЕ</a>
             </div>
         </section>
         <section class="about">
@@ -89,12 +92,12 @@
                         <img src="./images/Frame (21).png" alt="">
                         <h3>Подставки для ноутбуков
                         </h3>
-                        <a href="">ЧИТАТЬ ДАЛЬШЕ</a>
+                        <a href="./parallax.html">ЧИТАТЬ ДАЛЬШЕ</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="products">
+        <section class="products"  id="products">
             <div class="container">
                 <div class="productsText">
                     <h2>Рекомендуемые продукты</h2>
@@ -129,15 +132,16 @@
                 </div>
             </div>
         </section>
-        <section class="muse">
+        <section class="muse"  >
             <div class="container">
                 <h2>Вдохновение для домашнего офиса</h2>
                 <p>Работа на дому может быть сложной задачей — ознакомьтесь с некоторыми творческими решениями, которые
                     сделают все правильно.</p>
-                <a href="">ЧИТАТЬ ДАЛЬШЕ</a>
+                    <!-- add title -->
+                <a href=""  title="Hello">ЧИТАТЬ ДАЛЬШЕ</a>
             </div>
         </section>
-        <section class="way">
+        <section class="way"  id="way">
             <div class="container">
                 <div class="wayIn">
                     <h2>Сделал трудный путь</h2>
@@ -155,7 +159,6 @@
                     <h2>Сделайте работу значимой</h2>
                     <p>Мы здесь, потому что считаем, что ваша работа заслуживает лучшего. Команда, которая любит
                         работать вместе, — это волшебство, благодаря которому все это происходит.</p>
-
                 </div>
                 <div class="gallery">
                     <img src="./images/Frame (19).png" alt="">
@@ -198,7 +201,20 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
+        <section class="video">
+            <div class="container">
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/ENsklD79k5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/gxh7nhdn7jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="map">
+            <div class="contianer">
+                <h2>Our location
+                </h2>
+                <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/112943/karabalta/search/geeks%20%D0%BA%D0%B0%D1%80%D0%B0%20%D0%B1%D0%B0%D0%BB%D1%82%D0%B0/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">geeks кара балта в Кара‑Балта</a><a href="https://yandex.ru/maps/112943/karabalta/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Кара‑Балта</a><iframe src="https://yandex.ru/map-widget/v1/?display-text=geeks%20%D0%BA%D0%B0%D1%80%D0%B0%20%D0%B1%D0%B0%D0%BB%D1%82%D0%B0&ll=73.847535%2C42.800760&mode=search&sll=37.617700%2C55.755863&sspn=1.444702%2C0.484794&text=geeks%20%D0%BA%D0%B0%D1%80%D0%B0%20%D0%B1%D0%B0%D0%BB%D1%82%D0%B0&z=13.2" width="1370" height="500" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
             <div class="container">
                 <div class="svg">
                     <svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
